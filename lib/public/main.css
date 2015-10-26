@@ -1,0 +1,155 @@
+body {
+    color: #222;
+    font-family: "Arial", Sans-serif;
+    font-size: 14px;
+    background-color: #ECEEEF;
+}
+
+.top img {
+	margin-left: 80px;
+    width: 80px;
+    height: 50px;
+}
+
+.top form {
+	margin-left: 200px;
+	display: inline-block;
+    vertical-align: middle;
+}
+
+input[type="text"]{
+    height: 35px;
+    color: grey;
+    width: 250px;
+    display: inline;
+    vertical-align: middle;
+    padding: 0px;
+    padding-left: 10px;
+    margin: 0px 0px 3px 0px;
+    border: 1px solid #CFCBC8;
+    border-right: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    font-size: 13px;
+}
+
+input[type="search"]
+{
+    background-color: #34A8C4;
+    border-color: rgba(0, 0, 0, 0.1);
+    color: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 2px;
+    text-align: center;
+    height: 35px;
+    display: inline;
+    padding: 7px 15px 8px;
+    margin-left: 0px;
+}
+
+.navi {
+    text-align: center;
+    font-size: 17px;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    background-color: #FFF;
+    color: #A7A7A7;
+}
+
+.navi ul {
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    margin: 0px;
+    width: 900px;
+}
+
+.navi li {
+    display: inline;
+    margin: 2px;
+}
+
+div.shop {
+    font-size: 14px;
+    color: #A7A7A7;
+}
+
+div.title {
+	 width: 90%;
+	 white-space: nowrap;
+	 overflow:hidden;
+	 text-overflow: ellipsis;
+}
+
+
+div.currency_code{
+    float: right;
+    color: #78C042;
+}
+
+div.price{
+    float: right;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    color: #78c042;
+}
+
+div.price::before{
+    content: "$";
+}
+
+div.price::after{
+    content: " USD"
+}
+
+img {
+    width: 345px;
+    height: 290;
+}
+
+.container {
+    width: 245px;
+    list-style: none;
+    padding: 12px;
+    display: block;
+    background-color: #FFFFFF;
+
+}
+
+.container ul {
+    list-style: none;
+    padding: 0px 0px 0px 20px;
+    color: #52B5CC;
+}
+
+.container h4 {
+    color: #555;
+}
+
+.images {
+    font-size: 13px;
+    display: inline-block;
+    float: left;
+    margin: 40px;
+
+}
+
+.images ul {
+    list-style: none;
+    padding: 10px;
+    width: 800px;
+}
+
+.images li {
+    height: 245px;
+    width: 245px;
+    display: inline-block;
+    padding: 0px;
+    background-color: #FFF;
+}
+
+
+
+
